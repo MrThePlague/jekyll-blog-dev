@@ -31,9 +31,18 @@
 
     - name: Install rdiscount ruby gem
       gem: name=rdiscount state=latest
+    
+    - name: Install Redcarpet
+      gem: name=redcarpet state=latest
 
     - name: Install Jekyll
       gem: name=jekyll state=latest
+    
+    - name: Install Jekyll-Paginate
+      gem: name=jekyll-paginate state=latest
+
+    - name: Install Pygments
+      gem: name=pygments.rb state=latest
 
     - name: Install Git
       yum: name=git state=latest
