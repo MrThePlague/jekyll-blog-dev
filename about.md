@@ -6,7 +6,7 @@ profile: true
 
 # Work #
 <br/>
-I'm Robert, and I work for a Value Added Reseller/Consulting firm/Managed Services Provider, based in __Western Canada__. My role involves me in the entire lifecycle of a project, from pre-sales, to architecture, implemntation, day 2 support and beyond; therefore I get exposed to a large number of unique environments, and am asked to solve many unique types of problem.
+I'm Robert, and I work for a Value Added Reseller/Consulting firm/Managed Services Provider, based in __Western Canada__. My role involves me in the entire lifecycle of a project, from pre-sales, to architecture, implementation, day 2 support and beyond; therefore I get exposed to a large number of unique environments, and am asked to solve many unique problems.
 
 While my role at this time is focussed on more traditional networking, I'm a __nerd__ at heart and love all aspects of technology including virtualization, automation, and Cloud computing. I believe in breaking down silos, and in the value of being a well-rounded Engineer. Furthermore, I believe in the concept of __Infrastructure as Code__ -- implementing the processes and concepts of the development lifecycle such as configuration management, version control, continuous integration, etc. 
 
