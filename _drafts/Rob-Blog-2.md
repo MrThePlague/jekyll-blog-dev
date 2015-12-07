@@ -22,6 +22,28 @@ Once I'd made the decision on my Blogging platform, I realized that I'd like to 
 I was already a user of both [Vagrant](https://www.vagrantup.com) and [Ansible](http://www.ansible.com), so it was an easy decision to incorporate these two pieces of software into the creation of a _mobile blogging workstation_.
 
 
+# GitHub
+
+The first step in creating the development environment was to create a new GitHub project
+
+# Vagrant
+
+I've made the assumption at this point that the reader already has a little bit of familiarity with Vagrant, but in a future blog post I'll discuss a bit more about the ins and outs of this fantastic piece of software.
+
+The first step in creating the development environment was to create a new Vagrant project with the provider and the default Vagrant box. This simply creates a generic Vagrantfile in the directory, which can be edited to suit. Alternatively, you could write a Vagrantfile from scratch, we've taken the easy route here to get going.
+
+    $ mkdir <directory to use>
+
+
+# Ansible
+
+
+# GitHub Pages
+
+
+# Next Steps
+
+
 
 
 

@@ -12,11 +12,11 @@ While my role at this time is focussed on more traditional networking, I'm a __n
 
 # Self #
 <br/>
-I'm an __INFJ__, a __concrete sequential__ thinker, and I'm a bit (okay, a lot) of a __perfectionist__.
+I'm an __INFJ__, a __concrete sequential__ thinker, and I'm a bit (a lot) of a __perfectionist__.
 
-Originally from __Leeds__, England, I now reside in Western Canada amongst the snow and igloos. I'm a life-long __Leeds United__ (Football) supporter, and my lovely Wife and I are both __Calgary Flames__ (Hockey) season ticket holders. I play __Football__ (Soccer, for you American types) in my spare time to keep my legs moving, I love photography, and when I (seldom) have time I like to nerd it up on the PS4.
+Originally from __Leeds__, England, I now reside in Western Canada amongst the snow and igloos. I'm a life-long __Leeds United__ (Football) and __Leeds Rhinos__ (Rugby League) supporter, and my Wife and I are both __Calgary Flames__ (Hockey) season ticket holders. I play __Football__ (Soccer) in my spare time to keep my legs moving, I love photography, and when I (seldom) have time I like to nerd it up on the PS4.
 
-I love Batman, Apple, OS X, Linux, virtualization, open source, BIND, Vim, Chuck Taylor's, and about a million other cool things.
+I love Batman, Apple, OS X, Linux, virtualization, open source, BIND, Vi(m), Chuck Taylors, and about a million other cool things.
 
 # Contact #
 <br/>
