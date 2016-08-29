@@ -41,8 +41,8 @@
     - name: Install Jekyll-Paginate
       gem: name=jekyll-paginate state=latest
 
-    - name: Install Pygments
-      gem: name=pygments.rb state=latest
+    - name: Install rouge
+      gem: name=rouge state=latest
 
     - name: Install Git
       yum: name=git state=latest
