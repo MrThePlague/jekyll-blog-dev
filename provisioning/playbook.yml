@@ -8,50 +8,35 @@
 
     - name: Install Extra Packages for Enterprise Linux (EPEL)
       yum: name=epel-release state=latest
-      sudo: True
+      become: true
 
     - name: Install Ruby
       yum: name=ruby state=latest
-      sudo: True
+      become: true
 
     - name: Install Ruby development packages
       yum: name=ruby-devel state=latest
-      sudo: True
+      become: true
 
     - name: Install Ruby gems
       yum: name=rubygems state=latest
-
-    - name: Install NodeJS
-      yum: name=nodejs state=latest
-      sudo: True
+      become: true
 
     - name: Install NPM
       yum: name=npm state=latest
-      sudo: True
+      become: true
 
-    - name: Install rdiscount ruby gem
-      gem: name=rdiscount state=latest
-    
-    - name: Install Redcarpet
-      gem: name=redcarpet state=latest
-
-    - name: Install Jekyll
-      gem: name=jekyll state=latest
-    
-    - name: Install Jekyll-Paginate
-      gem: name=jekyll-paginate state=latest
-
-    - name: Install rouge
-      gem: name=rouge state=latest
-
+    - name: Install github-pages Ruby gem
+      gem: name=github-pages state=latest
+ 
     - name: Install Git
       yum: name=git state=latest
-      sudo: True
+      become: true
     
     - name: Install Vim text editor
       yum: name=vim state=latest
-      sudo: True
+      become: true
 
     - name: Clone github repo
-      sudo: False
+      become: false
       git: repo=https://github.com/MrThePlague/mrtheplague.github.io.git dest=~/mrtheplague.github.io
