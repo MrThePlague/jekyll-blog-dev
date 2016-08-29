@@ -23,7 +23,7 @@ Along with the following Ruby gems:
 * redcarpet
 * Jekyll
 * Jekyll-Paginate
-* Pygments
+* Rouge
 
 The Ruby gems installed are all the ones required for my specific blog usage; however, additional gems can be added to the playbook as required.
 
