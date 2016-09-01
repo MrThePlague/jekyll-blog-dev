@@ -6,7 +6,7 @@ This is a simple Vagrantfile and Ansible playbook to deploy a development enviro
 
 The Vagrant box used is the official CentOS release which does not include the VirtualBox guest editions, so if you prefer, you can choose a different CentOS box.
 
-The ``./provisioning/playbook.yml` Ansible playbook deploys the following packages with Yum:
+The `./provisioning/playbook.yml` Ansible playbook deploys the following packages with Yum:
 
 * Extra Packages for Enterprise Linux (EPEL)
 * Ruby
