@@ -12,23 +12,11 @@ The ``./provisioning/playbook.yml` Ansible playbook deploys the following packag
 * Ruby
 * Ruby development packages
 * Ruby gems
-* NodeJS
-* NPM
+* NPM 
 * Vim
 * Git
 
-Along with the following Ruby gems:
-
-* rdiscount
-* redcarpet
-* Jekyll
-* Jekyll-Paginate
-* Rouge
-
-The Ruby gems installed are all the ones required for my specific blog usage; however, additional gems can be added to the playbook as required.
-
-    - name: Install your required ruby gem
-      gem: name=<gem name> state=latest
+Additionally, the playbook uses the [Github Pages](https://github.com/github/pages-gem) ruby gem, which installs all of the dependencies for GitHub Pages, matching the current running versions on the Pages platform.
 
 ## Requirements
 
@@ -53,6 +41,6 @@ The following software is required for a vanilla use of this dev environment:
 
 5. Run the Jekyll development server, and listen on the box's default IP address
 
-        jekyll serve -H 10.0.2.15
+        jekyll serve -H 10.0.2.15 --incremental
 
 6. When you're finished, commit and push your changes, and then run `vagrant destroy` on your host machine to clean up!
